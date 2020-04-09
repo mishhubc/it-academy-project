@@ -1,0 +1,23 @@
+.section-numbers {
+  position: relative;
+  background-color: $blue;
+  color: $white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 275px;
+  box-sizing: border-box;
+  width: 100%;
+  opacity: 0.9;
+
+
+
+  &--paragraph {
+    text-align: center;
+    font-size: 16px;
+    margin: 16px;
+  }
+
+
+}

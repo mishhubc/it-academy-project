@@ -1,0 +1,44 @@
+.section-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.section {
+  padding: 80px 0;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: $max-app-width-desktop;
+    margin: 60px auto;
+
+    &--centered {
+      align-items: center;
+    }
+
+    &--row {
+      flex-direction: row;
+    }
+  }
+
+  &__description {
+    padding: 32px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+/*
+  TODO
+
+  1. Sections should have an padding on bottom and top of 80px. 
+  2. Content of section should be centered.
+  3. Create section__title class and try to style it like on mocks
+  (Co zyskasz na EasySchool/Dlaczego EasySchool)
+  IGNORE FONT-FAMILY FOR NOW
+  4. Create section__description class and try to style it like on mocks
+  (Sprawdź czym jest EasySchool...)
+  5. Create section__desction--small 
+  which will have a smaller font size like description on Poznaj najważniejsze... section.
+*/

@@ -1,0 +1,89 @@
+$icon-hands: '\e900';
+$icon-team: '\e901';
+$icon-idea: '\e902';
+$icon-seminar: '\e903';
+$icon-messenger: '\e904';
+$icon-twitter: '\e905';
+$icon-youtube: '\e906';
+$icon-linkedin: '\e907';
+$icon-facebook: '\e908';
+$icon-instagram: '\e909';
+$icon-whatsapp: '\e90a';
+$icon-remote: '\e90b';
+$icon-open-email: '\e90c';
+$icon-like: '\e90d';
+$icon-testing: '\e90e';
+$icon-play-button: '\e90f';
+$icon-photo-camera: '\e910';
+$icon-video-camera: '\e911';
+$icon-medal: '\e912';
+$icon-mortarboard: '\e913';
+$icon-diploma: '\e914';
+$icon-portfolio: '\e915';
+$icon-physics: '\e916';
+$icon-brain: '\e917';
+$icon-test: '\e918';
+$icon-alarm-clock: '\e919';
+$icon-bell: '\e91a';
+$icon-hours: ' \e91b';
+$icon-picture: '\e91c';
+$icon-email: '\e91d';
+$icon-phone-call: '\e91e';
+$icon-pin: '\e91f';
+$icon-edit: '\e921';
+$icon-copy: '\e922';
+$icon-add-user: '\e923';
+$icon-bank: '\e924';
+$icon-bubble-speak: '\e925';
+$icon-save: '\e926';
+$icon-calendar: '\e927';
+$icon-touch-screen: '\e928';
+$icon-form: '\e929';
+$icon-eye: '\e920';
+
+@font-face {
+  font-family: 'itacademy';
+  src: url('../assets/fonts/itacademy.eot');
+  src: url('../assets/fonts/itacademy.eot') format('embedded-opentype'),
+    url('../assets/fonts/itacademy.ttf') format('truetype'),
+    url('../assets/fonts/itacademy.woff') format('woff'),
+    url('../assets/fonts/itacademy.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+
+.icon {
+  font-family: 'itacademy-icons';
+  font-style: normal;
+  color: inherit;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+
+  &--big {
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  &--eye {
+
+    // .icon--eye
+    &:before {
+      // .icon--eye:before
+      content: $icon-eye;
+    }
+  }
+
+
+  &--check {
+
+    // .icon--eye
+    &:before {
+      // .icon--eye:before
+      content: $icon-idea;
+    }
+  }
+}

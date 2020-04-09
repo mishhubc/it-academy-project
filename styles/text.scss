@@ -1,0 +1,12 @@
+$size: 10px;
+
+.text {
+  color: yellow;
+
+  width: $size;
+  height: $size;
+
+  &--bold {
+    font-weight: bold;
+  }
+}

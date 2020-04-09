@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'itacademy-icons';
+  src: url('../assets/fonts/itacademy.eot');
+  src: url('../assets/fonts/itacademy.eot') format('embedded-opentype'),
+    url('../assets/fonts/itacademy.ttf') format('truetype'),
+    url('../assets/fonts/itacademy.woff') format('woff'),
+    url('../assets/fonts/itacademy.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body {
+  margin: 0;
+  background-color: $white;
+}
+
+p {
+  margin: 0;
+}

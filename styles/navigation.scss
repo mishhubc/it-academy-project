@@ -1,0 +1,11 @@
+.navigation {
+  &__list {
+    display: flex;
+    list-style: none;
+  }
+
+  &__item {
+    margin: 0 14px;
+    color: $white;
+  }
+}

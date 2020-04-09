@@ -1,0 +1,25 @@
+.button {
+  height: 46px;
+  margin: 0;
+  border: 0;
+  padding: 0 18px;
+  font-size: 16px;
+  border-radius: 1px;
+  box-shadow: 0 2px 2px 0 $grey-shadow;
+  flex-shrink: 0;
+
+  &--white {
+    color: $blue;
+    background-color: $white;
+  }
+
+  &--blue {
+    color: $white;
+    background-color: $blue;
+  }
+
+  &--red {
+    color: $white;
+    background-color: $red;
+  }
+}

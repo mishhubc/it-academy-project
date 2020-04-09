@@ -1,0 +1,129 @@
+$check:"\ea10";
+
+.background-grey {
+  background-color: $light-grey;
+  background-position: cover;
+}
+
+.rows-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-size: 16px;
+
+
+}
+
+.plan-tile {
+  padding-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+  transition: all .7s;
+  box-shadow: 10px 9px 17px 0px rgba(0, 0, 0, 0.35);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    transform: scale(1.15);
+    box-shadow: 10px 9px 17px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  &--1 {
+    background-color: $white;
+    color: $dark-blue;
+  }
+
+  &--2 {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &--3 {
+    background-color: $dark-blue;
+    color: $white;
+  }
+
+  &--price1 {
+    color: $blue;
+    font-size: 2em;
+  }
+
+  &--price2 {
+    color: $white;
+    font-size: 2em;
+  }
+
+  &--price3 {
+    color: $white;
+    font-size: 2em;
+  }
+
+  &__heading,
+  &__description {
+
+    padding: 20px;
+    text-align: center;
+
+  }
+
+  &--price,
+  &--book {
+    margin: 20px 0;
+  }
+
+
+  &--center {
+    text-align: center;
+
+  }
+
+  .button {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: none !important;
+
+  }
+
+  ul {
+    text-align: center;
+    margin-right: 30px;
+
+
+  }
+
+  li {
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+
+    &:last-child {
+      border-bottom: 1px solid rgba(0, 0, 0, .2);
+      padding-bottom: 20px;
+    }
+
+  }
+
+
+}
+
+/*
+  try to recreate a plan tile from desing (Cennik section)
+  Create only styles for middle tile, and apply it to all 3 tiles.
+
+  you can use any icon for the list and the button
+
+  remember that list should be kept in <ul> and <li> tags
+
+  if You will not have an idea how to create line between list and price
+  then simply ignore that
+
+  You do not have to measure sizes from the design,
+  try to recreate it but You don't have to be pixel perfect.
+  */

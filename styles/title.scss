@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+
+  &--regular {
+    font-size: 30px;
+  }
+
+  &--big {
+    font-size: 46px;
+  }
+}

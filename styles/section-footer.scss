@@ -1,0 +1,59 @@
+.footer {
+  * {
+    box-sizing: border-box;
+    background-color: $blue;
+    margin: 0 auto;
+
+  }
+
+  &__container-row {
+    display: flex;
+    padding: 80px 0;
+
+
+  }
+
+  &--header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  &__list {
+    list-style: none;
+
+
+  }
+
+  &--address {
+    line-height: 16px;
+    margin-bottom: 15px;
+    position: relative;
+
+    &:nth-child(5) {
+      padding: 40px 0;
+
+
+      &::after {
+        position: absolute;
+        content: "";
+        top: 85%;
+        left: 0px;
+        transform: translateX(-35%);
+        width: 1050px;
+        height: 2px;
+        background-color: rgba(#000000, .3);
+        background-position-x: left;
+        opacity: .5;
+      }
+
+
+
+
+    }
+
+
+  }
+
+
+
+}

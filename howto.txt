@@ -1,0 +1,9 @@
+npm init
+
+npm install style-loader css-loader sass-loader node-sass webpack webpack-dev-server --save-dev
+
+copy webpack.config.js
+
+copy package.json scripts
+
+npm run dev

@@ -1,0 +1,41 @@
+.section--management {
+  display: flex;
+  position: relative;
+  background-image: url('../assets/background.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__content {
+    margin: 300px auto;
+  }
+
+  &__text {
+    color: $white;
+    width: 40%;
+  }
+
+  &__description {
+    padding: 16px 0 24px;
+  }
+
+  &__shape, &__laptop {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  
+  &__shape {
+    top: 0;
+    height: 100%;
+    background-image: url('../assets/shape.png'); 
+  }
+
+  &__laptop {
+    top: 20%;
+    height: 80%;
+    background-size: contain;
+    background-image: url('../assets/visualisation.png');
+  }
+}

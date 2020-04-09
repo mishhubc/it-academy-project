@@ -1,0 +1,26 @@
+$white: #ffffff;
+$red: #f5365c;
+$blue: #5e72e4;
+$dark-blue: #172b4d;
+$light-grey: #f4f5f7;
+$dark-grey: #edf0f5;
+
+$grey-shadow: rgba(200, 200, 200, 0.75);
+
+$max-app-width-desktop: 1200px;
+$header-height-desktop: 138px;
+/* 
+$desktop-content-width: 768px;
+
+@mixin mobile-only {
+  @media screen and (max-width: $desktop-content-width - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @media screen and (min-width: $desktop-content-width) {
+    @content;
+  }
+}
+ */
