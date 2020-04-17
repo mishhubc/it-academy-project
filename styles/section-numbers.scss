@@ -1,5 +1,4 @@
 .section-numbers {
-  position: relative;
   background-color: $blue;
   color: $white;
   display: flex;
@@ -11,13 +10,9 @@
   width: 100%;
   opacity: 0.9;
 
-
-
   &--paragraph {
     text-align: center;
     font-size: 16px;
     margin: 16px;
   }
-
-
 }

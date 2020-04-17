@@ -62,10 +62,20 @@ $icon-eye: '\e920';
   width: 18px;
   height: 18px;
 
+
   &--big {
     font-size: 26px;
     width: 26px;
     height: 26px;
+  }
+
+  &--copy {
+
+    // .icon--eye
+    &:before {
+      // .icon--eye:before
+      content: $icon-copy;
+    }
   }
 
   &--eye {
@@ -77,6 +87,14 @@ $icon-eye: '\e920';
     }
   }
 
+  &--messenger {
+
+    // .icon--eye
+    &:before {
+      // .icon--eye:before
+      content: $icon-messenger;
+    }
+  }
 
   &--check {
 
